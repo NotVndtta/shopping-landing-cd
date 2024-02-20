@@ -10,7 +10,7 @@ const Navbar = () => {
                     <div className='header_logo'>
                         <Image src={logo} alt="Logo"></Image>
                     </div>
-                    <nav className='flex justify-between text-center text-black font-semibold text-base leading-6 gap-x-6'>
+                    <nav className='flex justify-between text-center text-custom-gray font-semibold text-base leading-6 gap-x-6'>
                         <a href="#!" className='text-purple-600'>Main</a>
                         <a href="#!">About</a>
                         <a href="#!">Get in touch</a>
