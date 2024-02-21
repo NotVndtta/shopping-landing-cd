@@ -8,10 +8,15 @@ module.exports = {
   theme: {
     extend: {
       colors: {
+        'custom-black': '#27272A',
         'custom-gray': '#696969',
+        'border-color': '#E5E7EB'
       },
       fontSize: {
         '32': '32px',
+      },
+      width: {
+        '38': '38%',
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

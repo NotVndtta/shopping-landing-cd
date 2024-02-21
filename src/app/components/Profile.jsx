@@ -6,8 +6,8 @@ import elipsebg from '../../images/elipsebg.png'
 
 const Profile = () => {
     return (
-            <div className="container pl-[85px]">
-                    <div className="font-bold text-32 leading-normal text-black mb-10">About me</div>
+            <div className="container px-[85px]">
+                    <div className="font-bold text-32 leading-normal text-custom-black mb-10">About me</div>
                     <div className="flex justify-between gap-x-60 pr-32 pt-[80px]">
                         <div className="w-412 h-412 text-left relative">
                             <div className="h-full w-full" >
@@ -18,7 +18,7 @@ const Profile = () => {
                         <div className=" w-537 h-228 text-left relative mt-[92px]">
                         <div class="absolute top-[-24px] left-0 w-[25px] h-[3px] bg-purple-600"></div>
                         <div className=' text-custom-gray font-normal '>
-                            <span className="font-semibold text-black">Nick Richardson</span> - specialist in Frontend <br />
+                            <span className="font-semibold text-custom-black">Nick Richardson</span> - specialist in Frontend <br />
                             development. Clear code is my passion. <br />
                             Solving issues through negotiations
                         </div>
