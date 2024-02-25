@@ -46,7 +46,7 @@ const Form = () => {
                 objectFit="contain" 
                 className="absolute mt-[23px] ml-5"
                 />
-                <input className={`w-[324px] h-[55px] pl-[54px] mt-2 py-[13px] border ${errors.fullName ? 'border-[#E02424]' : isTyping ? 'border-[#7E3AF2]' : 'border-[#E5E7EB]'} 
+                <input className={`w-[324px] h-[55px] pl-[54px] mt-2 py-[13px] border ${errors.fullName ? 'border-[#E02424]' : 'border-[#E5E7EB]'} 
                 hover:border-[#7E3AF2] focus:border-[#7E3AF2] rounded-2xl text-base font-normal`} 
                   placeholder='Name Surname'
                   {...register("fullName", {
@@ -70,7 +70,7 @@ const Form = () => {
                 objectFit="contain" 
                 className="absolute mt-[23px] ml-5"
                 />
-              <input className={`w-[324px] h-[55px] pl-[54px] mt-2 py-[13px] border ${errors.fullName ? 'border-[#E02424]' : isTyping ? 'border-[#7E3AF2]' : 'border-[#E5E7EB]'} 
+              <input className={`w-[324px] h-[55px] pl-[54px] mt-2 py-[13px] border ${errors.email? 'border-[#E02424]' : 'border-[#E5E7EB]'} 
                 hover:border-[#7E3AF2] focus:border-[#7E3AF2] rounded-2xl text-base font-normal`}
                 placeholder='name@example.com'
                 {...register("email", {
