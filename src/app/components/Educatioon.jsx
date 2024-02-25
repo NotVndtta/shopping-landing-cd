@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const Education = () => {
     return (<section>
-        <div className='container px-[85px] pt-[80px] pb-[100px]'>
+        <div className='container px-[85px] pt-[80px] pb-[100px] mx-auto'>
             <div className='flex justify-between gap-[217px]'>
                 <div className='w-[353px]'>
                 <div className='font-bold text-2xl leading-normal mb-[44px]'>

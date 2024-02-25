@@ -20,6 +20,9 @@
   --textColor: #7E3AF2;
 }
 
+.input-field:focus {
+  border-color: #7E3AF2;
+}
 
 
 
