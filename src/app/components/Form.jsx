@@ -29,7 +29,8 @@ const Form = () => {
   return (  
     <div className='container mx-auto'>
         <div className='absolute text-custom-black font-extrabold text-5xl py-[70px] '>
-          <form className="bg-white w-[764px] h-[567px] mx-[258px] mt-[70px] rounded-2xl p-12" onSubmit={handleSubmit(onSubmit)}>
+          <form className="bg-white w-[764px] h-[567px] mx-[258px] mt-[70px] rounded-2xl p-12" 
+          onSubmit={handleSubmit(onSubmit)}>
             <label className="font-bold text-[32px] leading-normal text-custom-black text-left ">
               Let’s discuss your project <br />
             </label>
@@ -46,8 +47,9 @@ const Form = () => {
                 objectFit="contain" 
                 className="absolute mt-[23px] ml-5"
                 />
-                <input className={`w-[324px] h-[55px] pl-[54px] mt-2 py-[13px] border ${errors.fullName ? 'border-[#E02424]' : 'border-[#E5E7EB]'} 
-                hover:border-[#7E3AF2] focus:border-[#7E3AF2] rounded-2xl text-base font-normal`} 
+                <input className={`w-[324px] h-[55px] pl-[54px] mt-2 py-[13px] 
+                  border ${errors.fullName ? 'border-[#E02424]' : 'border-[#E5E7EB]'} 
+                  hover:border-[#7E3AF2] focus:border-[#7E3AF2] rounded-2xl text-base font-normal`} 
                   placeholder='Name Surname'
                   {...register("fullName", {
                   required: "Please fill this mandatory field",
@@ -70,7 +72,8 @@ const Form = () => {
                 objectFit="contain" 
                 className="absolute mt-[23px] ml-5"
                 />
-              <input className={`w-[324px] h-[55px] pl-[54px] mt-2 py-[13px] border ${errors.email? 'border-[#E02424]' : 'border-[#E5E7EB]'} 
+              <input className={`w-[324px] h-[55px] pl-[54px] mt-2 py-[13px] 
+                border ${errors.email? 'border-[#E02424]' : 'border-[#E5E7EB]'} 
                 hover:border-[#7E3AF2] focus:border-[#7E3AF2] rounded-2xl text-base font-normal`}
                 placeholder='name@example.com'
                 {...register("email", {
