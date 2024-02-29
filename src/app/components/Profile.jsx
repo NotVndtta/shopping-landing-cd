@@ -6,29 +6,36 @@ import elipsebg from '../../images/elipsebg.png'
 
 const Profile = () => {
     return (
-            <div className="container px-[85px] mx-auto">
-                    <div className="font-bold text-32 leading-normal text-custom-black mb-10 ">About me</div>
-                    <div className="flex justify-between gap-x-60 pr-32 pt-[80px]">
-                        <div className="w-412 h-412 text-left relative">
-                            <div className="h-full w-full" >
-                                <Image src={elipsebg} alt="elipsebg" width={412} height={412} className="z-[-1] absolute" />
-                                <Image src={AvatarImg} alt="Avatar" width={364} height={364} className="p-6" />
+            <div className="container ph:mt-12 dp:pl-[85px] dp:mt-0 mx-auto">
+                    <div className="ph:text-xl ph:mx-[15px] ph:font-semibold dp:font-bold dp:text-32 leading-normal 
+                    text-custom-black  ">About me</div>
+                    <div className="ph:pt-9 dp:flex dp:justify-between dp:gap-x-60 dp:pr-32 dp:pt-20">
+                            <div className="ph:relative ph:flex ph:justify-center ph:items-center mt-9 dp:flex dp:relative dp:w-[412px]" >
+                                <Image src={elipsebg} alt="elipsebg" 
+                                width={290} 
+                                height={290}  
+                                className="z-[-1] absolute ph:w-[290px] ph:h-[290px] dp:w-[412px] dp:h-[412px] " />
+                                <Image src={AvatarImg} alt="Avatar" 
+                                className="ph:w-64 ph:h-64  dp:w-[364px] dp:h-[364px]" />
                             </div>
-                        </div>
-                        <div className=" w-537 h-228 text-left relative mt-[92px]">
-                        <div class="absolute top-[-24px] left-0 w-[25px] h-[3px] bg-purple-600"></div>
-                        <div className=' text-custom-gray font-normal '>
-                            <span className="font-semibold text-custom-black">Nick Richardson</span> - specialist in Frontend <br />
-                            development. Clear code is my passion. <br />
-                            Solving issues through negotiations
-                        </div>
-                            <button className="max-w-[188px] max-h-[50px] justify-between mt-16 px-[25px] py-[13px]
-                                text-white text-base font-semibold flex flex-row items-center gap-x-3
-                                bg-purple-600 rounded-full hover:bg-purple-500 active:bg-purple-600 active:border-purple-200 disabled:bg-gray-200 disabled:text-gray-600 disabled:border-gray-200">
-                                <Link href="#!">
-                                    Get in touch
-                                </Link>
-                                <Image src={vector} alt="plane img"  objectFit="cover" />
+                        
+                        <div className="ph:ml-[15px] text-left relative mt-[92px]">
+                            <div class="absolute top-[-24px] left-0 w-[25px] h-[3px] bg-purple-600"></div>
+                            <div className='ph:text-sm text-custom-gray font-normal dp:text-xl leading-normal'>
+                                <span className="font-semibold text-custom-black">
+                                Nick Richardson</span> - specialist in Frontend <br />
+                                development. Clear code is my passion. <br />
+                                Solving issues through negotiations
+                            </div>
+                        <button className="ph:hidden dp:flex max-w-[188px] max-h-[50px] justify-between 
+                            mt-16 px-[25px] py-[13px]
+                            text-white text-base font-semibold flex flex-row items-center gap-x-3
+                            bg-purple-600 rounded-full hover:bg-purple-500 active:bg-purple-600 active:border-purple-200
+                             disabled:bg-gray-200 disabled:text-gray-600 disabled:border-gray-200">
+                            <Link href="#!">
+                                Get in touch
+                            </Link>
+                            <Image src={vector} alt="plane img"  objectFit="cover" />
                             </button>
                         </div>
                     </div>
