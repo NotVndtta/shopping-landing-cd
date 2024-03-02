@@ -6,25 +6,29 @@ import elipsebg from '../../images/elipsebg.png'
 
 const Profile = () => {
     return (
-            <div className="container ph:mt-12 dp:pl-[85px] dp:mt-0 mx-auto">
-                    <div className="ph:text-xl ph:mx-[15px] ph:font-semibold dp:font-bold dp:text-32 leading-normal 
-                    text-custom-black  ">About me</div>
-                    <div className="ph:pt-9 dp:flex dp:justify-between dp:gap-x-60 dp:pr-32 dp:pt-20">
-                            <div className="ph:relative ph:flex ph:justify-center ph:items-center mt-9 dp:flex dp:relative dp:w-[412px]" >
+            <div className="container ph:mt-12 tb:px-[39px] dp:pl-[85px] tb:mt-0 dp:mt-0 mx-auto">
+                    <div className="ph:text-xl ph:mx-[15px] ph:font-semibold tb:mx-0 
+                    dp:font-bold dp:text-32 leading-normal 
+                        text-custom-black  ">About me
+                    </div>
+                    <div className="ph:pt-9 tb:flex tb:justify-between tb:gap-x-[44px] tb:pt-20">
+                            <div className="ph:relative ph:flex ph:justify-center ph:items-center tb:w-[290px]  dp:mt-9 
+                            dp:flex dp:relative dp:w-[412px]" >
                                 <Image src={elipsebg} alt="elipsebg" 
-                                width={290} 
-                                height={290}  
+                                 
                                 className="z-[-1] absolute ph:w-[290px] ph:h-[290px] dp:w-[412px] dp:h-[412px] " />
                                 <Image src={AvatarImg} alt="Avatar" 
-                                className="ph:w-64 ph:h-64  dp:w-[364px] dp:h-[364px]" />
+                                className="ph:w-64 ph:h-64 dp:w-[364px] dp:h-[364px]" />
                             </div>
                         
-                        <div className="ph:ml-[15px] text-left relative mt-[92px]">
+                        <div className="text-left relative dp:mt-[92px] tb:mt-[26px]">
                             <div class="absolute top-[-24px] left-0 w-[25px] h-[3px] bg-purple-600"></div>
-                            <div className='ph:text-sm text-custom-gray font-normal dp:text-xl leading-normal'>
-                                <span className="font-semibold text-custom-black">
-                                Nick Richardson</span> - specialist in Frontend <br />
-                                development. Clear code is my passion. <br />
+                            <div className='ph:text-sm ph:mt-12 text-custom-gray font-normal 
+                            tb:text-xl leading-normal 
+                            tb:w-[380px]  dp:w-[537px] '>
+                                <span className="font-semibold text-custom-black ">
+                                Nick Richardson</span> - specialist in Frontend 
+                                development. Clear code is my passion.
                                 Solving issues through negotiations
                             </div>
                         <button className="ph:hidden dp:flex max-w-[188px] max-h-[50px] justify-between 
