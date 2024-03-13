@@ -1,7 +1,11 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    output:'export',
-  };
-  /* module.exports = nextConfig*/
-  export default nextConfig;
+    output: "export",
+    basePath: "/shopping-landing-cd",
   
+    images: {
+      unoptimized: true,
+    },
+  };
+  
+  export default nextConfig;
