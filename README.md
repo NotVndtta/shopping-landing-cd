@@ -2,6 +2,8 @@
 
 Использовано: Next.js + tailwind css
 
+[Demo](https://notvndtta.github.io/shopping-landing-cd/) 
+
 Команды:
 
 Для запуска проекта:
