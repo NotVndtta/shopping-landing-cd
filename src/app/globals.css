@@ -24,7 +24,9 @@
   border-color: #7E3AF2;
 }
 
-
+body {
+  background-color: #FCFBFA;
+}
 
 @layer utilities {
   .text-balance {

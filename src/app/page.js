@@ -16,7 +16,7 @@ export default function Home() {
   const onSubmit = (data) => console.log(data)
 
   return (
-    <div class="text-purple">
+    <div className="text-purple">
     <Navbar />
     <Hero />
     <Profile />

@@ -48,7 +48,7 @@ const Form = () => {
                 width={24}
                 height={24}
                 alt="placeholder image"  
-                objectFit="contain" 
+                fit="contain" 
                 className="absolute ml-5 ph:mt-[13px] tb:mt-[23px] "
                 />
                 <input className={`ph:w-[258px] ph:h-[50px] ph:text-xs 
@@ -74,7 +74,7 @@ const Form = () => {
               width={24}
               height={24}
                 alt="placeholder image"  
-                objectFit="contain" 
+                fit="contain" 
                 className="absolute ml-5 ph:mt-[13px]  tb:mt-[23px]"
                 />
               <input className={`ph:w-[258px] ph:h-[50px] ph:text-xs 
@@ -119,7 +119,7 @@ const Form = () => {
               <Link href="#!">
                 Submit
               </Link>
-              <Image src={isValid ? vector: inactive} alt="plane img"  objectFit="cover" />
+              <Image src={isValid ? vector: inactive} alt="plane img"  fit="cover" />
                                 
             </button>
           </form>
@@ -128,7 +128,7 @@ const Form = () => {
         
         src={gradient}
         alt="Form background"
-        objectFit="cover"
+        fit="cover"
         objectPosition=""
         className="ph:w-[320px] ph:h-[753px] tb:w-[792px] tb:h-[708px] dp:w-[1280px] 
         dp:h-[708px] z-[-1]"

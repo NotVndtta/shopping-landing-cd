@@ -9,8 +9,8 @@ import vector from '../../images/Vector.svg';
 const Education = () => {
     return (
         <div className='container ph:py-12 ph:pl-[15px] tb:pt-16 tb:px-[39px] 
-        dp:flex dp:px-[85px] dp:pt-[80px] 
-        dp:pb-[100px] dp:w-[1280px]  mx-auto'>
+        dp:flex dp:px-[85px] dp:pt-[104px] 
+        dp:pb-[100px] dp:w-[1280px]  '>
             <div className='dp:flex dp:justify-between dp:gap-[217px]'>
                 <div className='ph:w-[246px] dp:w-[353px]'>
                 <div className='ph:font-semibold ph:text-xl tb:font-bold tb:text-2xl leading-normal 
@@ -108,7 +108,7 @@ const Education = () => {
       <Link href="#!">
         Get in touch
       </Link>
-      <Image src={vector} alt="plane img"  objectFit="cover" />
+      <Image src={vector} alt="plane img"  fit="cover" />
     </button>
                 
         </div>

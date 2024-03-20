@@ -6,10 +6,10 @@ import menu from '../../images/menu.png'
 const Navbar = () => {
     return (
         <section>
-            <div className='container mx-auto px-4 border-b border-[#E5E7EB] h-16'>
-                <div className='flex justify-between items-center py-4 pl-4 pr-[10px] 
+            <div className='container  border-b border-[#E5E7EB] h-16'>
+                <div className='flex justify-between items-center py-[15px] pl-4 pr-[10px] 
                 tb:px-[39px] dp:px-[85px]  '>
-                    <div className='header_logo'>
+                    <div className=''>
                         <Image src={logo} alt="Logo"></Image>
                     </div>
                     <nav className='ph:hidden  tb:flex dp:flex justify-between text-center
