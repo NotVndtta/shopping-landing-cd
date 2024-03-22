@@ -27,7 +27,7 @@ const Form = () => {
     setIsTyping(event.target.value !== '');
   };
   return (  
-    <div className='container mx-auto'>
+    <div className='container mx-auto tb:w-[792px] dp:w-[1280px]'>
         <div className='absolute text-custom-black ph:font-semibold ph:px-[10px] ph:py-16 
         tb:font-bold tb:text-5xl tb:py-[70px] '>
           <form className=" ph:w-[300px]  ph:px-[5px] ph:text-center 

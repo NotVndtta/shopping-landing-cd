@@ -6,9 +6,9 @@ import elipsebg from '../../images/elipsebg.png'
 
 const Profile = () => {
     return (
-            <div className="container ph:mt-12 tb:px-[39px] dp:pl-[85px] tb:mt-0 dp:mt-[110px] ">
+            <div className="container ph:mt-12 tb:px-[39px] dp:pl-[85px] tb:mt-0 dp:mt-[110px] mx-auto">
                     <div className="ph:text-xl ph:mx-[15px] ph:font-semibold tb:mx-0 
-                    tb:font-bold tb:text-32 leading-normal 
+                    tb:font-bold tb:text-32 tb:w-[729px] leading-normal 
                         text-custom-black  ">About me
                     </div>
                     <div className="ph:pt-9 ph:mx-[15px] tb:flex tb:justify-between dp:gap-x-[44px] tb:pt-20">
